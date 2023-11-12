@@ -1,0 +1,161 @@
+body {
+    background-color: #D1E9E9;
+    margin: 0px;
+}
+
+nav {
+    background-color: #6FB7B7;
+    font-family: Arial;
+    text-align: center;
+}
+
+nav a {
+    padding: 18px 20px;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #D1E9E9;
+    color: #3f6060;
+}
+
+.card {
+    background-color: white;
+    padding: 40px;
+    margin: 60px 100px;
+    border-radius: 30px;
+    background-image: url(image/img03.jpeg);
+    background-size: cover;
+}
+
+.card01 {
+    background-color: white;
+    padding: 35px;
+    margin: 80px 60px;
+    border-radius: 30px;
+    background-image: url(image/img03.jpeg);
+    background-size: cover;
+}
+
+header {
+    background-color: #6FB7B7;
+    text-align: center;
+    font-family: Arial;
+    color: white;
+    padding: 20px 20px;
+}
+
+.title01 {
+    float: left;
+    text-align: left;
+    padding-left: 1cm;
+    color: #497272;
+    font-family: 微軟正黑體;
+    font-size: 25pt;
+    font-weight: bold;
+    margin-left: 180px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    line-height: 200%;
+}
+
+.myphoto1 {
+    float: right;
+    margin-right: 200px;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+.myphoto2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.myphoto02 {
+    margin-right: 40px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+}
+
+.myphoto03 {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.title02 {
+    text-align: center;
+    color: #497272;
+    font-size: 30pt;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.article01 {
+    color: #497272;
+    font-size: 15pt;
+    font-family: 標楷體;
+    text-align: left;
+    overflow: hidden;
+    float: right;
+    margin-left: 170px;
+    margin-right: 170px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    line-height: 160%;
+}
+
+.title03 {
+    text-align: center;
+    color: #497272;
+    font-size: 30px;
+}
+
+.article02 {
+    color: #497272;
+    font-weight: bold;
+    font-family: 標楷體;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 200%;
+    font-size: 15pt;
+}
+
+.separator {
+    border-top: 4px dashed#999;
+    margin: 40px 0;
+}
+
+.separator02 {
+    border-top: 2px solid #999;
+    margin: 40px 425px;
+}
+
+footer {
+    background-color: #6FB7B7;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 10px;
+
+}
