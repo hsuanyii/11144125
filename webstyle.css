@@ -3,6 +3,14 @@ body {
     margin: 0px;
 }
 
+.slogan {
+    color: #497272;
+    text-align: center;
+    font-size: 30pt;
+    margin-top: 75px;
+    font-family: SimSun;
+}
+
 nav {
     background-color: #6FB7B7;
     font-family: Arial;
@@ -158,4 +166,40 @@ footer {
 .icon {
     margin-right: 10px;
 
+}
+
+.programming {
+    display: flex;
+    justify-content: center;
+    color: #497272;
+    font-family: Rome;
+    font-size: 23px;
+    line-height: 200%;
+    font-weight: bold;
+    margin: auto;
+    align-items: center;
+}
+
+progress {
+    height: 30px;
+    margin-left: 25px;
+}
+
+@media screen and (max-width:800px) {
+
+    article,
+    aside {
+        float: none;
+        width: 100%;
+    }
+
+    .card {
+        padding: 10px;
+        margin: 15px 0px;
+    }
+
+    img {
+        max-width: 100%;
+        height: 90%;
+    }
 }
